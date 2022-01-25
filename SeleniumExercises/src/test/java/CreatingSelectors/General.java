@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.sql.Driver;
 import java.util.Scanner;
 
-public class General {
+public class General extends ConfigData{
     /*
     Stwórz lokatory XPath oraz CSS dla poniższych elementów ze strony
     http://przyklady.javastart.pl/jpetstore/actions/Catalog.action. Do tworzenia i testowania selektorów użyj zakładki
@@ -39,9 +39,16 @@ public class General {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "E:\\Andrzej\\IT\\Testowanie\\Repozytoria\\SeleniumExercises\\" +
-                "SeleniumExercises\\src\\main\\resources\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver", "E:\\Andrzej\\IT\\Testowanie\\Repozytoria\\SeleniumExercises\\" +
+//                "SeleniumExercises\\src\\main\\resources\\chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
+//        driver.navigate().to("http://przyklady.javastart.pl/jpetstore/actions/Catalog.action");
+
+//        System.setProperty("webdriver.chrome.driver", "E:\\Andrzej\\IT\\Testowanie\\Repozytoria\\SeleniumExercises\\" +
+//                "SeleniumExercises\\src\\main\\resources\\chromedriver.exe");
+        custommizeChrDriver("E:\\Andrzej\\IT\\Testowanie\\Repozytoria\\" +
+                "SeleniumExercises\\SeleniumExercises\\src\\main\\resources\\chromedriver.exe");
+        driver = new ChromeDriver();
         driver.navigate().to("http://przyklady.javastart.pl/jpetstore/actions/Catalog.action");
 
         //1
@@ -82,6 +89,7 @@ public class General {
         WebElement mybaitsLink = driver.findElement(By.xpath("//*[@id=\"PoweredBy\"]/a"));
 
     }
+
 
 
 
