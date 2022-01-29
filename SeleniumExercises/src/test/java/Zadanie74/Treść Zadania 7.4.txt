@@ -1,0 +1,10 @@
+Stwórz test automatyczny na podstawie poniższego scenariusza testowego:
+
+Przejdź na stronę http://theinternet.przyklady.javastart.pl/hovers
+Najedź myszką na pierwsze (z lewej) zdjęcie użytkownika
+Sprawdź, że po najechaniu myszką pod zdjęciem dostępny jest napis name: user1 oraz że, dla pozostałych dwóch kolejnych zdjęć podpis jest pusty
+Wykonaj analogicznie kroki 2 i 3 dla kolejnych zdjęć użytkownika
+Inne wymagania:
+
+Nazwa klasy testowej: HoverTests
+Nazwa metody testowej: hoverTest
