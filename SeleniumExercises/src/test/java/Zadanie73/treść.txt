@@ -1,0 +1,13 @@
+Zadanie 7.2:
+Stwórz test automatyczny na podstawie poniższego scenariusza testowego:
+
+Przejdź na stronę http://theinternet.przyklady.javastart.pl/dropdown
+Sprawdź, że po wejściu na stronę w kontrolce typu Dropdown jest wybrana opcja "Please select an option"
+Ustaw wartość na Option 1
+Sprawdź, że wybrana opcja to Option 1
+Ustaw wartość na Option 2
+Sprawdź, że wybrana opcja to Option 2
+Inne wymagania:
+
+Nazwa klasy testowej: DropDownTests
+Nazwa metody testowej: dropDownTest
