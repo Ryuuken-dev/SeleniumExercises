@@ -1,4 +1,4 @@
-package Zadanie72;
+package Zadanie71;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,0 +1,12 @@
+Zadanie 7.1:
+Stwórz test automatyczny na podstawie poniższego scenariusza testowego:
+
+Przejdź na stronę checkboxes
+Sprawdź, że po wejściu na stronę http://theinternet.przyklady.javastart.pl/checkboxes checkbox 1 jest odznaczony,
+zaś checkbox 2 jest zaznaczony
+Zaznacz checkbox 1, odznacz checkbox 2
+Sprawdź, że checkbox 1 jest zaznaczony, zaś checkbox 2 jest odznaczony
+Inne wymagania:
+
+Nazwa klasy testowej: CheckBoxesTests
+Nazwa metody testowej: checkboxesTest

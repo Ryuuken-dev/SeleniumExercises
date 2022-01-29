@@ -1,13 +1,12 @@
-Zadanie 7.2:
 Stwórz test automatyczny na podstawie poniższego scenariusza testowego:
 
-Przejdź na stronę http://theinternet.przyklady.javastart.pl/dropdown
-Sprawdź, że po wejściu na stronę w kontrolce typu Dropdown jest wybrana opcja "Please select an option"
-Ustaw wartość na Option 1
-Sprawdź, że wybrana opcja to Option 1
-Ustaw wartość na Option 2
-Sprawdź, że wybrana opcja to Option 2
+Przejdź na stronę http://theinternet.przyklady.javastart.pl/upload
+Wybierz plik z nazwą testfile.txt*
+Załaduj plik, klikając w przycisk Upload
+Sprawdź, że po załadowaniu pliku jego nazwa dostępna jest na stronie
+* - Przed przystąpieniem do pracy utwórz w dowolnym miejscu na dysku plik testfile.txt z dowolną treścią.
+
 Inne wymagania:
 
-Nazwa klasy testowej: DropDownTests
-Nazwa metody testowej: dropDownTest
+Nazwa klasy testowej: FileUploadTests
+Nazwa metody testowej: fileUploadTest
