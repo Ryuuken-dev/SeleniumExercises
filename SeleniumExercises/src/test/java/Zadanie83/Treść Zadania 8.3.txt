@@ -1,0 +1,14 @@
+Stwórz test automatyczny na podstawie poniższego scenariusza testowego:
+
+Przejdź na stronę http://theinternet.przyklady.javastart.pl/dynamic_loading/1
+Sprawdź, że po wejściu na stronę tekst Hello World! jest niewidoczny!
+Naciśnij na przycisk Start
+Sprawdź, że po jakimś czasie tekst Hello World! jest widoczny.
+Uwaga: Przed przystąpieniem do pracy sprawdź jak działa funkcjonalność na stronie. Tekst Hello World! jest dostępny na
+stronie cały czas, pomimo tego, że go nie widać!
+
+Inne wymagania:
+
+Nazwa klasy testowej: FluentWaitTests
+Nazwa metody testowej: fluentWaitTest
+Użyj implementacji FluentWait do czekania
