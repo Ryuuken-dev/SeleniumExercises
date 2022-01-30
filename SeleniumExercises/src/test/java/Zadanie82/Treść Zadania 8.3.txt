@@ -1,0 +1,16 @@
+Na bazie rozwiązania z zadania 8.1 zmodyfikuj kod w taki sposób aby, kod spełniał następujący scenariusz:
+
+Przejdź na stronę http://theinternet.przyklady.javastart.pl/dynamic_controls
+Sprawdź, że po wejściu na stronę checkbox jest odznaczony oraz widoczny
+Naciśnij na przycisk Remove
+Sprawdź, że po jakimś czasie pojawi się tekst It's gone!
+Naciśnij na przycisk Add
+Sprawdź, że checkbox jest odznaczony oraz widoczny
+Inne wymagania:
+
+Nazwa klasy testowej: ExplicitWaitTests
+Nazwa metody testowej: waitForPresenceOfTheElement
+Użyj implementacji WebDriverWait do czekania
+Test powinien używać co najmniej dwóch różnych warunków (ExpectedConditions) na oczekiwanie.
+Aby uniknąć duplikacji w kodzie do tego celu zaimplementuj dodatkowo klasę o nazwie WaitUntil,
+która będzie dostarczała metod na czekanie.
