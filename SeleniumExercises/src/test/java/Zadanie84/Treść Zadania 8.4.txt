@@ -1,0 +1,10 @@
+Stwórz test automatyczny na podstawie poniższego scenariusza testowego:
+
+Przejdź na stronę http://theinternet.przyklady.javastart.pl/dynamic_loading/2
+Naciśnij na przycisk Start
+Sprawdź, że po jakimś czasie tekst Hello World! jest widoczny.
+Inne wymagania:
+
+Nazwa klasy testowej: FluentWaitTests2
+Nazwa metody testowej: fluentWaitWithExceptionTest
+Użyj implementacji FluentWait do czekania
