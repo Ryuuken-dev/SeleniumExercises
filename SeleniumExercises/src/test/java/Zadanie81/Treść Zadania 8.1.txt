@@ -1,0 +1,11 @@
+Stwórz test automatyczny na podstawie poniższego scenariusza testowego:
+
+Przejdź na stronę http://theinternet.przyklady.javastart.pl/dynamic_controls
+Sprawdź, że po wejściu na stronę checkbox jest odznaczony oraz widoczny
+Naciśnij na przycisk Remove
+Sprawdź, że po jakimś czasie pojawi się tekst It's gone!
+Inne wymagania:
+
+Nazwa klasy testowej: ExplicitWaitTests
+Nazwa metody testowej: waitForDisappearingElement
+Użyj implementacji WebDriverWait do czekania
