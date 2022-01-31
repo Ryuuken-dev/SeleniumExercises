@@ -1,14 +1,15 @@
-package tests;
+package tests.LoginTests;
 
 import org.testng.annotations.Test;
 import page.objects.FooterPage;
 import page.objects.LandingPage;
 import page.objects.LoginPage;
 import page.objects.TopMenuPage;
+import tests.TestBase;
 
 import static org.testng.Assert.assertTrue;
 
-public class PositiveLoginTests extends TestBase{
+public class PositiveLoginTests extends TestBase {
 
 
     @Test

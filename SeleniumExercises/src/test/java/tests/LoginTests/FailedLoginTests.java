@@ -1,18 +1,15 @@
-package tests;
+package tests.LoginTests;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import page.objects.FooterPage;
 import page.objects.LandingPage;
 import page.objects.LoginPage;
 import page.objects.TopMenuPage;
+import tests.TestBase;
+
 import static org.testng.Assert.*;
 
 
-public class FailedLoginTests extends TestBase{
+public class FailedLoginTests extends TestBase {
 
     /*
     Scenariusz testowy:
