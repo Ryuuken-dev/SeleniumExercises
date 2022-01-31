@@ -1,6 +1,5 @@
-package TestExamples;
+package page.objects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,6 +34,9 @@ public class LoginPage {
 
     public void typeInPasswordField(String password){
 
+        if (passwordField.getAttribute("value").equals(password)){
+            return;
+        }
         passwordField.sendKeys(password);
     }
 
