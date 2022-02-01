@@ -1,0 +1,6 @@
+Scenariusz testowy:
+
+ 1. Wejdź na stronę http://przyklady.javastart.pl/jpetstore/
+ 2. Kliknij w link Sign In
+ 3. Na stronie logowania podając nieprawidłowy login i hasło spróbuj się zalogować
+ 4. Test powinien skończyć się sprawdzeniem czy komunikat „Invalid username or password. Signon failed.” został wyświetlony.

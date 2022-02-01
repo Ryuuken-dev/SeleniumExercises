@@ -10,19 +10,19 @@ public class FailedProceedToCheckoutTests extends TestBase {
     @Test
     public void asUserTryToProceedToCheckoutWithoutSigningIn(){
 
-        LandingPage landingPage = new LandingPage(driver);
+        LandingPage landingPage = new LandingPage();
         landingPage.clickOnEnterStoreLink();
-        LeftMenuPage leftMenuPage = new LeftMenuPage(driver);
+        LeftMenuPage leftMenuPage = new LeftMenuPage();
         leftMenuPage.clickOnFishLink();
-        FishPage fishPage = new FishPage(driver);
+        FishPage fishPage = new FishPage();
         fishPage.chooseAngelfish();
 
-        AngelFishPage angelFishPage = new AngelFishPage(driver);
+        AngelFishPage angelFishPage = new AngelFishPage();
         angelFishPage.addSmallAngelfishToCard();
 
-        ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
+        ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
         shoppingCartPage.proceedToCart();
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPage loginPage = new LoginPage();
 
         assertEquals(loginPage.getWarningMessage(), "You must sign on before attempting to check out. " +
                 "Please sign on and try checking out again.");
